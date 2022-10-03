@@ -1,6 +1,7 @@
 input.onGesture(Gesture.ThreeG, function () {
     maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 125)
     basic.pause(1000)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 0)
 })
 basic.showIcon(IconNames.Happy)
 music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
